@@ -1,0 +1,30 @@
+﻿@model IEnumerable<TaskManagementmini.Models.TaskFeilds>
+
+<a asp-controller="Task" asp-action="create">Create</a>
+<form asp-action="Delete" asp-route-id="task.Id" method="post">
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>
+
+<h2>📋 Task List</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Status</th>
+       
+    </tr>
+    @foreach (var task in Model)
+    {
+        
+
+        <tr>
+            <td>@task.Id</td>
+            <td>@task.Title</td>
+            <td>@(task.IsComplete ? "✅ Done" : "⏳ Pending")</td>
+            <td>
+               
+            </td>
+        </tr>
+    }
+</table>

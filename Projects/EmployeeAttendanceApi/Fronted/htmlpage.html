@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Employee Attendance</h2>
+
+        <form id="attendanceForm">
+            <input type="text" id="name" placeholder="Enter Name" required />
+            <input type="date" id="date" required />
+            <select id="status">
+                <option value="Present">Present</option>
+                <option value="Absent">Absent</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h3>All Attendance Records</h3>
+        <table id="attendanceTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        document.getElementById('attendanceForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Page reload rokta hai
+
+            const data = {
+                name: document.getElementById('name').value,
+                date: document.getElementById('date').value,
+                status: document.getElementById('status').value
+            };
+
+            fetch('https://localhost:7090/api/attendance', {  // ✅ YOUR API URL here
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert('Data inserted successfully!');
+                    } else {
+                        alert('Insert failed!');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+    </script>
+</body>
+</html>

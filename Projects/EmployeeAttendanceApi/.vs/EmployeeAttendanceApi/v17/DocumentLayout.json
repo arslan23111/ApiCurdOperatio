@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EmployeeAttendanceApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF32C201-75EE-4CBE-A53C-8C087F6BEF30}|..\\WebAppPractice\\WebAppPractice.csproj|d:\\webapppractice\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF32C201-75EE-4CBE-A53C-8C087F6BEF30}|..\\WebAppPractice\\WebAppPractice.csproj|d:\\webapppractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF32C201-75EE-4CBE-A53C-8C087F6BEF30}|..\\WebAppPractice\\WebAppPractice.csproj|d:\\webapppractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF32C201-75EE-4CBE-A53C-8C087F6BEF30}|..\\WebAppPractice\\WebAppPractice.csproj|d:\\webapppractice\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF32C201-75EE-4CBE-A53C-8C087F6BEF30}|..\\WebAppPractice\\WebAppPractice.csproj|d:\\webapppractice\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF32C201-75EE-4CBE-A53C-8C087F6BEF30}|..\\WebAppPractice\\WebAppPractice.csproj|d:\\webapppractice\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 380,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebAppPractice\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\WebAppPractice\\appsettings.json",
+              "ToolTip": "D:\\WebAppPractice\\appsettings.json",
+              "RelativeToolTip": "..\\WebAppPractice\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-09T12:51:37.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\WebAppPractice\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\WebAppPractice\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "D:\\WebAppPractice\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "..\\WebAppPractice\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T11:04:53.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebAppPractice\\Program.cs",
+              "RelativeDocumentMoniker": "..\\WebAppPractice\\Program.cs",
+              "ToolTip": "D:\\WebAppPractice\\Program.cs",
+              "RelativeToolTip": "..\\WebAppPractice\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T09:15:59.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\WebAppPractice\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\WebAppPractice\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "D:\\WebAppPractice\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "..\\WebAppPractice\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T07:58:43.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\WebAppPractice\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "..\\WebAppPractice\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\WebAppPractice\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "..\\WebAppPractice\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T07:26:45.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\WebAppPractice\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\WebAppPractice\\Models\\Employee.cs",
+              "ToolTip": "D:\\WebAppPractice\\Models\\Employee.cs",
+              "RelativeToolTip": "..\\WebAppPractice\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T07:14:26.252Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

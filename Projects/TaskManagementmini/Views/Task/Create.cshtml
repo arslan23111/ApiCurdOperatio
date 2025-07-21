@@ -1,0 +1,32 @@
+﻿@model TaskManagementmini.Models.TaskFeilds
+
+@{
+    ViewData["Title"] = "Create New Task";
+}
+
+<h2>Create New Task</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Title" class="control-label">Title</label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IsComplete" class="control-label">Is Completed?</label>
+        <input asp-for="IsComplete" type="checkbox" class="form-check-input" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Task</button>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

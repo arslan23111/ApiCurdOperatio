@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PracticeWork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F9C22F-1708-4747-A2B3-356514CFF42E}|SimpleTaskApp.csproj|d:\\practicework\\services\\taskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F9C22F-1708-4747-A2B3-356514CFF42E}|SimpleTaskApp.csproj|solutionrelative:services\\taskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F9C22F-1708-4747-A2B3-356514CFF42E}|SimpleTaskApp.csproj|d:\\practicework\\dblayer\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F9C22F-1708-4747-A2B3-356514CFF42E}|SimpleTaskApp.csproj|solutionrelative:dblayer\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F9C22F-1708-4747-A2B3-356514CFF42E}|SimpleTaskApp.csproj|d:\\practicework\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F9C22F-1708-4747-A2B3-356514CFF42E}|SimpleTaskApp.csproj|solutionrelative:interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F9C22F-1708-4747-A2B3-356514CFF42E}|SimpleTaskApp.csproj|d:\\practicework\\models\\taskitme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F9C22F-1708-4747-A2B3-356514CFF42E}|SimpleTaskApp.csproj|solutionrelative:models\\taskitme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 380,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDBService.cs",
+              "DocumentMoniker": "D:\\PracticeWork\\DbLayer\\IDBService.cs",
+              "RelativeDocumentMoniker": "DbLayer\\IDBService.cs",
+              "ToolTip": "D:\\PracticeWork\\DbLayer\\IDBService.cs*",
+              "RelativeToolTip": "DbLayer\\IDBService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T11:41:52.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskServices.cs",
+              "DocumentMoniker": "D:\\PracticeWork\\Services\\TaskServices.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices.cs",
+              "ToolTip": "D:\\PracticeWork\\Services\\TaskServices.cs*",
+              "RelativeToolTip": "Services\\TaskServices.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T11:32:11.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "D:\\PracticeWork\\InterFaces\\ITaskService.cs",
+              "RelativeDocumentMoniker": "InterFaces\\ITaskService.cs",
+              "ToolTip": "D:\\PracticeWork\\InterFaces\\ITaskService.cs",
+              "RelativeToolTip": "InterFaces\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T11:15:44.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskItme.cs",
+              "DocumentMoniker": "D:\\PracticeWork\\Models\\TaskItme.cs",
+              "RelativeDocumentMoniker": "Models\\TaskItme.cs",
+              "ToolTip": "D:\\PracticeWork\\Models\\TaskItme.cs",
+              "RelativeToolTip": "Models\\TaskItme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T10:58:25.675Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
